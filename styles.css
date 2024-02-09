@@ -24,7 +24,7 @@ body {
 
 .logo-overlay {
     width: 100%;
-    height: 180px;
+    height: 150px;
     background: black;
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -37,7 +37,7 @@ body {
 .overlay-content {
     color: white;
     font-family: "Comic Sans MS";
-    font-size: 96px;
+    font-size: 80px;
 }
 
 .logo-container {
@@ -46,6 +46,6 @@ body {
 }
 
 .logo {
-    margin-right: 10px;
-    height: 150px;
+    margin-right: 5px;
+    height: 125px;
 }
