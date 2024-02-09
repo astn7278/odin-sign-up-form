@@ -3,6 +3,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: "Comic Sans MS";
 }
 
 .main-container {
@@ -16,10 +17,6 @@ body {
     max-width: 450px;
     overflow: hidden;
     position: relative;
-}
-
-.content-div {
-    width: 67%;
 }
 
 .logo-overlay {
@@ -36,7 +33,6 @@ body {
 
 .overlay-content {
     color: white;
-    font-family: "Comic Sans MS";
     font-size: 80px;
 }
 
@@ -48,4 +44,28 @@ body {
 .logo {
     margin-right: 5px;
     height: 125px;
+}
+
+.content-div {
+    width: 67%;
+    background-color: #f9fafb;
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    top: 148px;
+    margin-left: 45px;
+    margin-right: 45px;
+    max-width: 575px;
+    min-width: 450px;
+    font-size: 20px;
+}
+
+.form-container {
+    position: relative;
+    top: 370px;
+    background-color: white;
+    height: 325px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
