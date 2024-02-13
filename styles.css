@@ -9,6 +9,7 @@ body {
 .main-container {
     display: flex;
     height: 100%;
+    width: 1005;
 }
 
 .sidebar-div {
@@ -52,14 +53,17 @@ body {
     position: relative;
 }
 
+.content-div p {
+    margin-left: 45px;
+    font-size: 20px;
+}
+
 .text-container {
     position: absolute;
     top: 148px;
-    margin-left: 45px;
     margin-right: 45px;
-    max-width: 575px;
+    max-width: 650px;
     min-width: 450px;
-    font-size: 20px;
 }
 
 .form-container {
@@ -67,5 +71,25 @@ body {
     top: 370px;
     background-color: white;
     height: 325px;
+    min-width: 450px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.text-banner {
+    position: relative;
+    top: 20px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.form-inputs label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: -7px;
+}
+
