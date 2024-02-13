@@ -54,25 +54,25 @@ body {
 }
 
 .content-div p {
-    margin-left: 45px;
+    margin-left: 40px;
     font-size: 20px;
 }
 
 .text-container {
     position: absolute;
-    top: 148px;
+    top: 155px;
     margin-right: 45px;
-    max-width: 650px;
+    max-width: 625px;
     min-width: 450px;
 }
 
 .form-container {
     position: relative;
-    top: 370px;
+    top: 355px;
     background-color: white;
-    height: 325px;
+    height: 260px;
     min-width: 450px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .text-banner {
@@ -83,13 +83,24 @@ body {
 .form-inputs {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    max-width: 550px;
+    min-width: 500px;
+    margin: 0px 0px 0px 40px;
+}
 
+.form-inputs p {
+    margin: 15px 55px 0px 0px; 
 }
 
 .form-inputs label {
     font-size: 12px;
     display: block;
-    margin-bottom: -7px;
+    margin-bottom: -4px;
 }
 
+.form-inputs input {
+    width: 180px;
+    height: 1.5em;
+    padding-left: .4em;
+    padding-top: 2px;
+}
