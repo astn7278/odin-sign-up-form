@@ -85,11 +85,11 @@ body {
     flex-wrap: wrap;
     max-width: 550px;
     min-width: 500px;
-    margin: 0px 0px 0px 40px;
+    margin-left: 40px;
 }
 
 .form-inputs p {
-    margin: 15px 55px 0px 0px; 
+    margin: 15px 55px 0px 0px;
 }
 
 .form-inputs label {
@@ -101,6 +101,37 @@ body {
 .form-inputs input {
     width: 180px;
     height: 1.5em;
-    padding-left: .4em;
+    padding-left: 0.4em;
     padding-top: 2px;
+    border-radius: 4px;
+    border: 1px solid rgb(170, 170, 170)
+}
+
+.form-inputs input:hover {
+    border: 1px solid #537c37;
+}
+
+.form-inputs input:focus {
+    border: 1px solid #486932;
+}
+
+.button-container {
+    position: relative;
+    top: 390px;
+    margin-left: 40px;
+}
+
+button {
+    font-family: "Comic Sans MS";
+    color: white;
+    background-color: #537c37;
+    padding: 0.6em 3em 0.7em;
+    border: none;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+button:hover {
+    background-color: #486932;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24);
 }
