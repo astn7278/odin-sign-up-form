@@ -19,6 +19,7 @@ let passFields = document.querySelectorAll('input[type="password"]')
 function passwordCompare() {
     if (pass1Value !== pass2Value) {
         passError.textContent = 'passwords dont match';
+        passError.style.color = "rgb(174, 0, 0)";
         passFields.forEach(function(passField) {
             passField.style.border = "2px solid rgb(174, 0, 0)"
         });
