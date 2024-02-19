@@ -125,9 +125,6 @@ body {
     border: 1px solid #537c37;
 }
 
-.form-inputs input:focus {
-    border: 1px solid #486932;
-}
 
 .button-container {
     position: relative;
@@ -160,3 +157,10 @@ button:hover {
 }
 
 .login-container a {color:#537c37}
+
+#passError {
+    font-size: 10px;
+    color: rgb(174, 0, 0);
+    position: relative;
+    top: -15px
+}
